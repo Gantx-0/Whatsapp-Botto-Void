@@ -84,7 +84,7 @@ export default class Command extends BaseCommand {
    
 🔰 *Credits* 🔰
 ❏ *Ban Sensei
-❏ *Simp Freakin" Sama*`\n\n`
+❏ *Simp Freakin" Sama* `\n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
                 text += `${this.emojis[keys.indexOf(key)]} *${this.client.util.capitalize(key)}*\n❐ \`\`\`${categories[
