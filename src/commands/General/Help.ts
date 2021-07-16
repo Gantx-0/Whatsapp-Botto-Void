@@ -30,8 +30,7 @@ export default class Command extends BaseCommand {
                 }
             }
             let text = `let text = *╭────┈ ↷
-✥▬ *❄️_Ayanoukoji_❄️* ▬✥
-👋️ Konnichiwa!, *I am Ayanoukoji*
+👋️Konnichiwa !, *I am Ayanoukoji*
 ╭────┈
 ❏ *Owner: Gantx_Hckr*
 ❏ *Contact: https://wa.me/2663715606285*
@@ -40,51 +39,47 @@ export default class Command extends BaseCommand {
  
 🌟️ *𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧* 🌟️
   
-🎴✥▬ *General-Commands* ▬✥
-╰─↝
-*${client._config.prefix}help*
-*${client._config.prefix}admins*
-*${client._config.prefix}everyone*
-*${client._config.prefix}profile*
-*${client._config.prefix}xp*
-*${client._config.prefix}delete*
-*${client._config.prefix}owner*
+🎴✥▬ *General-Commands* 〽 *
+
+〽 *${client._config.prefix}help*
+〽 *${client._config.prefix}admins*
+〽 *${client._config.prefix}everyone*
+〽 *${client._config.prefix}profile*
+〽 *${client._config.prefix}xp*
+〽 *${client._config.prefix}delete*
+〽 *${client._config.prefix}owner*
     ╰─────────────────┈⁂
     
-🎴✥▬ *Media-Commands* ▬✥
-   ╰─↝
-*${client._config.prefix}yts [query]*
-*${client._config.prefix}yta [link]*
-*${client._config.prefix}ytv [link]*
-*${client._config.prefix}lyrics [query]*
-*${client._config.prefix}xspotify [link]*
-*${client._config.prefix}play [query]*
+🎴✥▬ *Media-Commands* 〽 *
+ 
+〽 〽 *${client._config.prefix}yts [query]*
+〽 *${client._config.prefix}yta [link]*
+〽 *${client._config.prefix}ytv [link]*
+〽 *${client._config.prefix}yts [query]*
+〽 *${client._config.prefix}xspotify [link]*
+〽 *${client._config.prefix}play [query]*
 ╰─────────────────┈⁂
    
-🎴✥▬ *Admin-Commands* ▬✥
-╰─↝
-*${client._config.prefix}act mod*
-*${client._config.prefix}act events*
-*${client._config.prefix}act safe*
-*${client._config.prefix}act nsfw*
-*${client._config.prefix}purge*
-*${client._config.prefix}promote [@user]*
-*${client._config.prefix}demote [@user]*
-*${client._config.prefix}remove [@user]*
+🎴✥▬ *Admin-Commands* 〽 *
+   
+〽 *${client._config.prefix}act mod*
+〽 *${client._config.prefix}act events*
+〽 *${client._config.prefix}act safe*
+〽 *${client._config.prefix}act nsfw*
+〽 *${client._config.prefix}purge*
+〽 *${client._config.prefix}promote [@user]*
+〽 *${client._config.prefix}demote [@user]*
+〽 *${client._config.prefix}remove [@user]*
 ╰─────────────────┈⁂
    
-🎴✥▬ *Other-Commands* ▬✥
-   ╰─↝
-*${client._config.prefix}chess*
-*${client._config.prefix}trigger*
-*${client._config.prefix}subred* 
-*${client._config.prefix}sticker [tag a pic]* 
-*${client._config.prefix}blur [tag a pic]*
-╰─────────────────┈⁂ 
-   
-🔰 *Credits* 🔰
-❏ *Ban Sensei
-❏ *Simp Freakin" Sama* `\n\n`
+🎴✥▬ *Other-Commands* 〽 *
+〽 *${client._config.prefix}chess*
+〽 *${client._config.prefix}trigger*
+〽 *${client._config.prefix}subred* 
+〽 *${client._config.prefix}sticker [tag a pic]* 
+〽 *${client._config.prefix}blur [tag a pic]*
+╰─────────────────┈⁂
+*Synthesized Infinity Edit*`\n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
                 text += `${this.emojis[keys.indexOf(key)]} *${this.client.util.capitalize(key)}*\n❐ \`\`\`${categories[
@@ -116,4 +111,5 @@ export default class Command extends BaseCommand {
 
     emojis = ['🌀', '🎴', '🔮', '👑', '🎈', '⚙️', '🍀']
 }
+
             
