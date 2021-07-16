@@ -29,21 +29,20 @@ export default class Command extends BaseCommand {
                     categories[info.config.category].push(info)
                 }
             }
-            let text = `let text = `🎫 *╭────┈ ↷
-┃□│✎┊ *ZeD-Bot*
-┃□│╭────────╯
-┃□││❏OWNER : @Hxcker_263
-┃□││❏NAMA : ${client._config.name}
-┃□││❏Team : Team_263  
-┃□││❏GROUP : *${group.metadata.subject}*
-┃□││❏PREFIX : 「 ${client._config.prefix} 」
-╰─────────---────────┈ ❁ཻུ۪۪⸙͎	
+            let text = `let text = *╭────┈ ↷
+👋️Konnichiwa !, *I am Ayanoukoji*
+╭────┈
+❏ *Owner: Gantx_Hckr*
+❏ *Contact: https://wa.me/2663715606285*
+❏ *Github:  https://github.com/Gantx-Hckr/4nonym0us* 
+───────╯
 
 
 |-------------------------|
 ─────────────────┈ ❁۪۪
 ❏ *Support-Owner* 」 
-> *Folow IG Bot: @hxcker_263*
+> *Follow IG Bot: @Loli_sama*
+⇒ *Github: https://github.com/Gantx-0*
 ╰─────────────────┈ ❁ཻུུ۪۪۪۪
 |-------------------------|
 
@@ -86,10 +85,7 @@ export default class Command extends BaseCommand {
 ┃□││❏*Hxcker_263*
 ┃□││❏R3tr0_263
 ┃□││❏BL4Z3_263
-╰─────────────────┈ ❁ཻུ۪۪⸙͎
-║█║▌║█║▌│║▌║▌█║
-║█║▌║█║▌│║▌║▌█║
-*_ZIM-D4RK-4RMY*`\n\n`
+╰─────────────────┈ ❁ཻུ۪۪⸙͎*`\n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
                 text += `${this.emojis[keys.indexOf(key)]} *${this.client.util.capitalize(key)}*\n❐ \`\`\`${categories[
