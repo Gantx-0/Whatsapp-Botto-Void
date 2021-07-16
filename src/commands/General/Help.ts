@@ -29,57 +29,67 @@ export default class Command extends BaseCommand {
                     categories[info.config.category].push(info)
                 }
             }
-            let text = `let text = *╭────┈ ↷
-👋️Konnichiwa !, *I am Ayanoukoji*
-╭────┈
-❏ *Owner: Gantx_Hckr*
-❏ *Contact: https://wa.me/2663715606285*
-❏ *Github:  https://github.com/Gantx-Hckr/4nonym0us* 
-───────╯
- 
-🌟️ *𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧* 🌟️
-  
-🎴✥▬ *General-Commands* 〽 *
+            let text = `let text = `🎫 *╭────┈ ↷
+┃□│✎┊ *ZeD-Bot*
+┃□│╭────────╯
+┃□││❏OWNER : @Hxcker_263
+┃□││❏NAMA : ${client._config.name}
+┃□││❏Team : Team_263  
+┃□││❏GROUP : *${group.metadata.subject}*
+┃□││❏PREFIX : 「 ${client._config.prefix} 」
+╰─────────---────────┈ ❁ཻུ۪۪⸙͎	
 
-〽 *${client._config.prefix}help*
-〽 *${client._config.prefix}admins*
-〽 *${client._config.prefix}everyone*
-〽 *${client._config.prefix}profile*
-〽 *${client._config.prefix}xp*
-〽 *${client._config.prefix}delete*
-〽 *${client._config.prefix}owner*
-    ╰─────────────────┈⁂
-    
-🎴✥▬ *Media-Commands* 〽 *
- 
-〽 〽 *${client._config.prefix}yts [query]*
-〽 *${client._config.prefix}yta [link]*
-〽 *${client._config.prefix}ytv [link]*
-〽 *${client._config.prefix}yts [query]*
-〽 *${client._config.prefix}xspotify [link]*
-〽 *${client._config.prefix}play [query]*
-╰─────────────────┈⁂
-   
-🎴✥▬ *Admin-Commands* 〽 *
-   
-〽 *${client._config.prefix}act mod*
-〽 *${client._config.prefix}act events*
-〽 *${client._config.prefix}act safe*
-〽 *${client._config.prefix}act nsfw*
-〽 *${client._config.prefix}purge*
-〽 *${client._config.prefix}promote [@user]*
-〽 *${client._config.prefix}demote [@user]*
-〽 *${client._config.prefix}remove [@user]*
-╰─────────────────┈⁂
-   
-🎴✥▬ *Other-Commands* 〽 *
-〽 *${client._config.prefix}chess*
-〽 *${client._config.prefix}trigger*
-〽 *${client._config.prefix}subred* 
-〽 *${client._config.prefix}sticker [tag a pic]* 
-〽 *${client._config.prefix}blur [tag a pic]*
-╰─────────────────┈⁂
-*Synthesized Infinity Edit*`\n\n`
+
+|-------------------------|
+─────────────────┈ ❁۪۪
+❏ *Support-Owner* 」 
+> *Folow IG Bot: @hxcker_263*
+╰─────────────────┈ ❁ཻུུ۪۪۪۪
+|-------------------------|
+
+
+─────────────────┈ ❁۪۪
+❏ *General-Commands* 」
+╰─❁۪۪
+> *${client._config.prefix}help*
+> *${client._config.prefix}admins*
+> *${client._config.prefix}everyone*
+> *${client._config.prefix}profile*
+> *${client._config.prefix}xp*
+> *${client._config.prefix}delete*
+╰─────────────────┈ ❁ཻཻུུ۪۪۪۪⸙͎
+
+❏ *Media-Commands* 」
+╰─❁۪۪
+> *${client._config.prefix}play*
+> *${client._config.prefix}yts*
+> *${client._config.prefix}yta*
+> *${client._config.prefix}ytv*
+> *${client._config.prefix}spotify*
+> *${client._config.prefix}sticker*
+> *${client._config.prefix}subred*
+> *${client._config.prefix}blur*
+╰─────────────────┈ ❁ཻུ۪۪⸙͎
+
+❏ *Moderation* 」
+╰─❁۪۪
+> *${client._config.prefix}activate*
+> *${client._config.prefix}deacticate*
+> *${client._config.prefix}demote*
+> *${client._config.prefix}promote*
+> *${client._config.prefix}remove*
+> *${client._config.prefix}purge*
+╰─────────────────┈ ❁ཻཻུུ۪۪۪۪⸙͎
+
+┃□│✎┊ *${client._config.name}*
+┃□│╭────────╯   
+┃□││❏*Hxcker_263*
+┃□││❏R3tr0_263
+┃□││❏BL4Z3_263
+╰─────────────────┈ ❁ཻུ۪۪⸙͎
+║█║▌║█║▌│║▌║▌█║
+║█║▌║█║▌│║▌║▌█║
+*_ZIM-D4RK-4RMY*`\n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
                 text += `${this.emojis[keys.indexOf(key)]} *${this.client.util.capitalize(key)}*\n❐ \`\`\`${categories[
@@ -111,5 +121,3 @@ export default class Command extends BaseCommand {
 
     emojis = ['🌀', '🎴', '🔮', '👑', '🎈', '⚙️', '🍀']
 }
-
-            
